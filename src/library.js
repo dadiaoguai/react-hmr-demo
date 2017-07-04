@@ -1,6 +1,4 @@
-export default {
-  log() {
-    // Change this after the server is started to test
-    console.log('Initial log...123')
-  }
-}
+import React from 'react'
+const App = () => (<div>hello, world, 操你妈! 成了!</div>)
+
+export default App

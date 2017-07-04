@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a682654e0cc118da13fc"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "26e4eaf306a589f6088a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -718,7 +718,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
   log() {
     // Change this after the server is started to test
-    console.log('Initial log...')
+    console.log('Initial log...123')
   }
 });
 
