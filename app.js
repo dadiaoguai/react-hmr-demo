@@ -8,7 +8,10 @@ const app = express()
 const compiler = webpack(webpackConfig)
 
 app.use(webpackDevMiddleware(compiler, {
-  publicPath: '/' // Same as `output.publicPath` in most cases.
+  publicPath: '/',
+  stats: {
+    colors: true
+  }
 }))
 app.use(require('webpack-hot-middleware')(compiler))
 app.use(express.static('dist'))
