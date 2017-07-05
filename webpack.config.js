@@ -3,7 +3,7 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: [
-    'webpack-hot-middleware/client?path=//localhost:3000/__webpack_hmr',
+    'webpack-hot-middleware/client',
     'react-hot-loader/patch', // RHL patch
     './src/index' // Your appʼs entry point
   ],
@@ -47,5 +47,5 @@ module.exports = {
     ]
   },
 
-  devtool: 'cheap-module-eval-source-map'
+  devtool: 'source-map'
 }

@@ -1,4 +1,4 @@
 import React from 'react'
-const App = () => (<div>hello, world, 操你妈! 成了!</div>)
+const App = () => (<div>hello, world!</div>)
 
 export default App
