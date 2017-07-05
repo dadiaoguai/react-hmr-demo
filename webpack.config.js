@@ -4,8 +4,8 @@ const webpack = require('webpack')
 module.exports = {
   entry: [
     'webpack-hot-middleware/client',
-    'react-hot-loader/patch', // RHL patch
-    './src/index' // Your appʼs entry point
+    'react-hot-loader/patch',
+    './src/index'
   ],
 
   plugins: [
@@ -31,9 +31,6 @@ module.exports = {
         test: /\.js$/,
         use: [
           {
-            loader: 'react-hot-loader/webpack'
-          },
-          {
             loader: 'babel-loader',
             options: {
               presets: ['env','react','stage-0'],
@@ -47,5 +44,5 @@ module.exports = {
     ]
   },
 
-  devtool: 'source-map'
+  devtool: 'eval'
 }
