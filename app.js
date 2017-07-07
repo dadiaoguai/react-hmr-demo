@@ -9,6 +9,7 @@ const compiler = webpack(webpackConfig)
 
 app.use(webpackDevMiddleware(compiler, {
   publicPath: '/',
+  noInfo: true,
   stats: {
     colors: true
   }
